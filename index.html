@@ -6,10 +6,17 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 <style>
-body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
-body {font-size:16px;}
-.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
-.w3-half img:hover{opacity:1}
+body,h1,h2,h3,h4,h5 {
+  font-family: "Poppins", sans-serif
+}
+body {
+  font-size:16px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 </style>
 <body>
 
@@ -21,11 +28,11 @@ body {font-size:16px;}
   </div>
   <div class="w3-bar-block">
     <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Team Profile</a>
+    <a href="tools.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Tools</a>
     <a href="project.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Project Idea</a>
     <a href="feedback.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Feedback</a>
     <a href="ittech.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">IT Technology</a>
     <a href="itwork.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">IT Work</a>
-    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Tools</a>
   </div>
 </nav>
 
@@ -42,7 +49,7 @@ body {font-size:16px;}
 <div class="w3-main" style="margin-left:340px;margin-right:40px">
 
   <!-- Header -->
-  <div class="w3-container" style="margin-top:80px" id="showcase">
+  <div class="w3-container" style="margin-top:80px">
     <h1 class="w3-jumbo"><b>Team Profile</b></h1>
       <p style='text-align:justify'> I always
         prioritize member cooperation in order to form an effective and harmonious
@@ -50,43 +57,29 @@ body {font-size:16px;}
         because it means &quot;friends&quot; in Spanish. It embodies the spirit of the
         entire team, which is constantly assisting one another in order to progress
         together.</p>
-  </div>
+      </div>
 
   <!-- Test Summary -->
-  <div class="w3-container" id="services" style="margin-top:60px">
+  <div class="w3-container" style="text-align:justify">
     <h1 class="w3-xxxlarge w3-text-red"><b>My personality test summary</b></h1>
-    <hr style="width:1060px;border:5px solid red" class="w3-round">
-      <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-      margin-bottom:0in;margin-left:.5in;margin-bottom:.0001pt;mso-add-space:auto;
-      text-align:justify;text-indent:-.25in;line-height:150%;mso-list:l0 level1 lfo1'><![if !supportLists]><span
-      style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-      Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      </span></span></span><![endif]>Personality test: Logistician <o:p></o:p></p>
-
-      <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-      margin-bottom:0in;margin-left:.5in;margin-bottom:.0001pt;mso-add-space:auto;
-      text-align:justify;text-indent:-.25in;line-height:150%;mso-list:l0 level1 lfo1'><![if !supportLists]><span
-      style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-      Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      </span></span></span><![endif]>Learning style test: Auditory and Visual<o:p></o:p></p>
-
-      <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-      margin-bottom:0in;margin-left:.5in;margin-bottom:.0001pt;mso-add-space:auto;
-      text-align:justify;text-indent:-.25in;line-height:150%;mso-list:l0 level1 lfo1'><![if !supportLists]><span
-      style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-      Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      </span></span></span><![endif]>Creativity test: Openness, Conscientiousness and
-      Extraversion<o:p></o:p></p>
+    <hr style="border:5px solid red" class="w3-round">
+    <ul>
+      <li><b>Personality test: Logistician</b></li>
+      <img src="https://raw.githubusercontent.com/KietDuongAnh/DuongAnhKiet/main/images/TestResult1.png" alt="result" style="width:90%;padding:10px">
+      <li><b>Learning style test: Auditory and Visual</b></li>
+      <img src="https://raw.githubusercontent.com/KietDuongAnh/DuongAnhKiet/main/images/TestResult2.png" alt="result" style="width:90%;padding:10px">
+      <li><b>Creativity test: Openness, Conscientiousness and Extraversion</b></li>
+      <img src="https://raw.githubusercontent.com/KietDuongAnh/DuongAnhKiet/main/images/TestResult3.png" alt="result" style="width:90%;padding:10px">
+    </ul>
   </div>
 
 
   <!-- Teammates -->
-  <div class="w3-container" id="services" style="margin-top:75px">
+  <div class="w3-container" style="text-align:justify">
     <h1 class="w3-xxxlarge w3-text-red"><b>Teammates</b></h1>
-    <hr style="width:1060px;border:5px solid red" class="w3-round">
+    <hr style="border:5px solid red" class="w3-round">
 	   <p><b>Team leader</b>:</p>
-     <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;text-align:justify;
-      line-height:150%'>Based on my test results and self-reflection, I could be a
+     <p>Based on my test results and self-reflection, I could be a
       person who works hard and gets the job done satisfactorily. However, I have
       come to realize that my inflexible working style sometimes prevents me from
       having the wisdom to make the right decisions in difficult situations. As a
@@ -104,8 +97,7 @@ body {font-size:16px;}
 
 	    <p><b>Team members:</b></p>
 
-      <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;text-align:justify;
-      line-height:150%'>Besides a reliable leader, any project's heart and soul rests
+      <p>Besides a reliable leader, any project's heart and soul rests
       with its team members. In addition to being familiar with some basic programming
       languages such as Python, Java and C and their relevant programming skills, I
       am looking forward to find teammates with soft skills such as problem-solving
@@ -119,45 +111,7 @@ body {font-size:16px;}
       assertiveness are among the values I look for my teammates. In particular, they
       can speak up when something strikes them as unjust or wrong and keep the
       processes can run smoothly.</p>
-  </div>
-
-
-  <!-- The Team -->
-  <div class="w3-row-padding w3-grayscale">
-    <div class="w3-col m4 w3-margin-bottom">
-      <div class="w3-light-grey">
-        <img src="/w3images/team2.jpg" alt="John" style="width:100%">
-        <div class="w3-container">
-          <h3>John Doe</h3>
-          <p class="w3-opacity">CEO & Founder</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-        </div>
-      </div>
     </div>
-    <div class="w3-col m4 w3-margin-bottom">
-      <div class="w3-light-grey">
-        <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
-        <div class="w3-container">
-          <h3>Jane Doe</h3>
-          <p class="w3-opacity">Designer</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col m4 w3-margin-bottom">
-      <div class="w3-light-grey">
-        <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
-        <div class="w3-container">
-          <h3>Mike Ross</h3>
-          <p class="w3-opacity">Architect</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
 
 
 <!-- End page content -->

@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body,h1,h2,h3,h4,h5 {
   font-family: "Poppins", sans-serif
@@ -25,22 +26,47 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.sidebar {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: red;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+
+/* Style sidebar links */
+.sidebar a {
+  padding: 5px 16px 30px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+}
+
+/* Style links on mouse-over */
+.sidebar a:hover {
+  color: black;
+}
 </style>
 <body>
 
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
-  <div class="w3-container">
-    <h3 class="w3-padding-64"><b>The IT World<br>Duong Anh Kiet</b></h3>
-  </div>
-  <div class="w3-bar-block">
-    <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Team Profile</a>
-    <a href="tools.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Tools</a>
-    <a href="project.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Project Idea</a>
-    <a href="feedback.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Feedback</a>
-    <a href="ittech.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">IT Technology</a>
-    <a href="itwork.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">IT Work</a>
+<nav class="w3-sidebar w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:200px;font-weight:bold;" id="mySidebar">
+  <div class="sidebar">
+    <div style="text-align:center">
+      <p style="font-size: 40px; color: white">The IT World </p>
+      <p style="font-size: 25px; color: white"> Duong Anh Kiet</p>
+    </div>
+      <a href="index.html" ><i class="fa fa-fw fa-users w3-xxxlarge"></i> Team Profile</a>
+      <a href="tools.html"><i class="fa fa-fw fa-wrench w3-xxxlarge"></i> Tools</a>
+      <a href="project.html"><i class="fa fa-fw fa-lightbulb-o w3-xxxlarge"></i> Project Idea</a>
+      <a href="feedback.html"><i class="fa fa-fw fa-pencil-square-o w3-xxxlarge"></i> Feedback</a>
+      <a href="ittech.html"><i class="fa fa-fw fa-cogs w3-xxxlarge"></i> IT Technology</a>
+      <a href="itwork.html"><i class="fa fa-fw fa-briefcase w3-xxxlarge"></i> IT work</a>
   </div>
 </nav>
 
@@ -57,7 +83,7 @@ img {
 <div class="w3-main" style="margin-left:340px;margin-right:40px">
 
   <!-- Header -->
-  <div class="header" style="margin-top:50px">
+  <div class="header" style="margin-top:40px">
     <h1 class="w3-jumbo" s><b>IT work</b></h1>
       </div>
 
